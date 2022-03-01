@@ -1,4 +1,6 @@
 
 exports.getHome = (req, res) => {
-    res.render('index')
+    res.json({
+        msg: 'Status activo'
+    })
 }
